@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Este es el titulo -->
+  <title>Turismo Travel world</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+  <link rel="stylesheet" href="CSS/styles5.css">
+  <link rel="stylesheet" href="css/style6.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+
+          <!-- Esta es la barra de navegacion -->
+          <a class="navbar-brand" href="#">Turismo Travel World</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Paquetes
+                </a>
+                <ul class="dropdown-menu">
+
+                  <!-- Este es el despliegue del menu -->
+                  <li><a class="dropdown-item" href="vuelos.html">Vuelos</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="alojamiento.html">Alojamientos</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="asistenciaalviajero.html">Asistencia al viajero</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ingresar.html">Ingresar</a>
+              </li>
+              </li>
+              </li>
+            </ul>
+            <div class="container">
+              <div class="modo" id="modo">
+                <i class="fas fa-toggle-on"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="carusel">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <div class="mb-4"></div> 
+      <section>
+      <body>
+       
+        <h1 class="display-5 text-center">Vuelos, Hoteles y Asistencia al viajero</h1>
+        <h2><p class="text-center">En nuestra página podes encontrar vuelos, alojamientos, paquetes, asistencia al viajero a
+          tu medida</p></h2>
+
+        <section class="contenedor">
+            <!-- Contenedor de elementos -->
+            <div class="contenedor-items">
+              <h1 class="display-5 text-center">Vuelos Nacionales</h1>
+                <div class="item">
+                    <span class="titulo-item">Buenos Aires/ Bariloche</span>
+                    <img src="asset\bariloche.jpg" alt="" class="img-item">
+                    <span class="precio-item">$16.000</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Buenos Aires/ Iguazu</span>
+                    <img src="asset\Cataratas-del-Iguazú.jpg" alt="" class="img-item">
+                    <span class="precio-item">$18.320</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Buenos Aires/ Jujuy</span>
+                    <img src="asset\jujuy.jpg" alt="" class="img-item">
+                    <span class="precio-item">$15.120</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+
+                <h1 class="display-5 text-center">Vuelos Internacionales</h1>
+
+                <div class="item">
+                    <span class="titulo-item">Buenos Aires/ Rio de Janeiro </span>
+                    <img src="asset\riojaneiro.jpg" alt="" class="img-item">
+                    <span class="precio-item">$122.000</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Buenos Aires/ Miami</span>
+                    <img src="asset\miami.jpg" alt="" class="img-item">
+                    <span class="precio-item">$263.271</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Buenos Aires/ Paris</span>
+                    <img src="asset\paris vuelo.jpg" alt="" class="img-item">
+                    <span class="precio-item">$250.730</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+
+                <h1 class="display-5 text-center">Hoteles Nacionales</h1>
+
+                <div class="item">
+                    <span class="titulo-item">Hotel Altos Ushuaia</span>
+                    <img src="asset\altos ushuaia.jpg" alt="" class="img-item">
+                    <span class="precio-item">$54.000</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Hotel esencial y spa mendoza</span>
+                    <img src="asset\esencial hotel y spa mendoza.jpg" alt="" class="img-item">
+                    <span class="precio-item">$32.000</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Hotel Plaza Corrientes</span>
+                    <img src="asset\hotel-plaza corrientes.jpg" alt="" class="img-item">
+                    <span class="precio-item">$42.800</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+
+                <h1 class="display-5 text-center">Hoteles Internacionales</h1>
+
+                <div class="item">
+                  <span class="titulo-item">Hotel Grand Oasis Cancun</span>
+                  <img src="asset\grand-oasis-cancun.jpg" alt="" class="img-item">
+                  <span class="precio-item">$125.000</span>
+                  <button class="boton-item">Agregar al Carrito</button>
+              </div>
+              <div class="item">
+                  <span class="titulo-item">Hotel Marina bay sands singapur</span>
+                  <img src="asset\hotel-marina-bay-sands-singapur.jpg" alt="" class="img-item">
+                  <span class="precio-item">$245.000</span>
+                  <button class="boton-item">Agregar al Carrito</button>
+              </div>
+              <div class="item">
+                  <span class="titulo-item">Hotel Grand hyatt dubai</span>
+                  <img src="asset\Grand-Hyatt-Dubai-P353-Hotel-Exterior-Pools-Twilight.gallery-2-3-item-panel.jpg" alt="" class="img-item">
+                  <span class="precio-item">$186.000</span>
+                  <button class="boton-item">Agregar al Carrito</button>
+              </div>
+
+              <h1 class="display-5 text-center">Asistencia al viajero</h1>
+
+                <div class="item">
+                    <span class="titulo-item">Classic</span>
+                    <img src="asset\asistencia 2.jpg" alt="" class="img-item">
+                    <span class="precio-item">$24.166</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Million</span>
+                    <img src="asset\asistencia 3.jpg" alt="" class="img-item">
+                    <span class="precio-item">$29.453</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">Premium</span>
+                    <img src="asset\asistencia 1.jpg" alt="" class="img-item">
+                    <span class="precio-item">$28.698</span>
+                    <button class="boton-item">Agregar al Carrito</button>
+                </div>
+
+
+
+            </div>
+            <!-- Carrito de Compras -->
+            <div class="carrito" id="carrito">
+                <div class="header-carrito">
+                    <h2>Tu Carrito</h2>
+                </div>
+    
+                <div class="carrito-items">
+                    <!-- 
+                    <div class="carrito-item">
+                        <img src="img/boxengasse.png" width="80px" alt="">
+                        <div class="carrito-item-detalles">
+                            <span class="carrito-item-titulo">Box Engasse</span>
+                            <div class="selector-cantidad">
+                                <i class="fa-solid fa-minus restar-cantidad"></i>
+                                <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                            </div>
+                            <span class="carrito-item-precio">$15.000,00</span>
+                        </div>
+                       <span class="btn-eliminar">
+                            <i class="fa-solid fa-trash"></i>
+                       </span>
+                    </div>
+                    <div class="carrito-item">
+                        <img src="img/skinglam.png" width="80px" alt="">
+                        <div class="carrito-item-detalles">
+                            <span class="carrito-item-titulo">Skin Glam</span>
+                            <div class="selector-cantidad">
+                                <i class="fa-solid fa-minus restar-cantidad"></i>
+                                <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                            </div>
+                            <span class="carrito-item-precio">$18.000,00</span>
+                        </div>
+                       <button class="btn-eliminar">
+                            <i class="fa-solid fa-trash"></i>
+                       </button>
+                    </div>
+                     -->
+                </div>
+                <div class="carrito-total">
+                    <div class="fila">
+                        <strong>Tu Total</strong>
+                        <span class="carrito-precio-total">
+                            $120.000,00
+                        </span>
+                    </div>
+                    <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <div class="mb-4"></div> 
+<!-- Metodos de pago/financion -->
+        
+<div>
+    <div class="ms-3">
+    <span style="color: rgb(73, 71, 71);">Tenemos la mejor financiación para tu viaje</span>
+      <img src="asset\banco galicia.png" class="bancogalicia">
+      <img src="asset\banco icbc.png" class="bancoicbc">
+      <img src="asset\banco santander.png" class="bancosantander">
+      <img src="asset\banco supervielle.png" class="bancosupervielle">
+      <img src="asset\banco credicoop.png" class="bancocredicoop">
+      <img src="asset\banco patagonia.png" class="bancopatagonia">
+      <button type="button" class="btn btn-secondary">VER TODOS LOS BANCOS</button>
+    </div></div></div> 
+    
+  </section>
+  <div class="mb-4"></div>  
+
+  
+  <!-- Footer principal -->
+  <footer id="footer"> 
+    <div class="footer-newsletter"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col-lg-6"> 
+            <h4>SUBSCRIBITE A NUESTRA NEWSLETTER PARA RECIBIR PROMOCIONES</h4> 
+          </div> 
+          <div class="col-lg-6"> 
+            <form action="" method="post"> 
+              <input type="email" name="email">
+              <input type="submit" value="Subscribime"> 
+            </form> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+    </footer>
+    
+    <!-- Footer principal -->
+    <footer class="bg-light text-dark pt-5 pb-5 pb-4">
+      <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Sobre Nosotros</h5>
+                   <hr class="mb-4">
+                   <p>
+                   <a href="nosotros.html" class="text-dark">¿Quiénes Somos?</a> 
+                   </p>
+                   <p>
+                    <a href="Promocionesbancarias.html" class="text-dark">Promociones Bancarias</a> 
+                    </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                 <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                 <hr class="mb-4">
+                 <p>
+                     <a href="Ingresar.html" class="text-dark">Accede a mi cuenta</a>
+                 </p>
+                 <p>
+                  <a href="Contacto.html" class="text-dark">Contactanos</a>
+                 </p>
+                 <p>
+                  <a href="Preguntasfrecuentes.html" class="text-dark">Preguntas Frecuentes</a>
+                 </p>
+
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Legales</h5>
+              <hr class="mb-4">
+              <p>
+                  <a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm" class="text-dark">Ley 24.240</a>
+              </p>
+              <p>
+               <a href="https://www.argentina.gob.ar/economia/comercio/defensadelconsumidor" class="text-dark">Autoridad Nacional de Aplicación</a>
+              </p>
+              
+
+         </div>
+         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+          <hr class="mb-4">
+          <p>
+            <li class="fas fa-home me-3"></li>Av Libertador 1313, Buenos Aires
+          </p>
+          <p>
+            <li class="fas fa-envelope me-3"></li>Turismotravelworld@turismo.com.ar
+          </p>    
+          <p>
+            <li class="fas fa-phone me-3"></li>0800-123-4321
+          </p>
+          <p>
+            <li class="fas fa-print me-3"></li>+1234321
+          </p>
+     </div>
+
+     <hr class="mb-4">
+
+     <div class="text-center mb-2">
+          <p>
+            &copy; Turismo Travel World - Todos los derechos reservados 2023.
+             <a href="">
+                 <strong class="text-primary"></strong>
+             </a>
+          </p>
+     </div>
+
+     <div class="text-center">
+        
+          <ul class="list-unstyled list-inline">
+
+            <li class="list-inline-item">
+                 <a href="#" class="text-dark"> <i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-dark"> <i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-dark"> <i class="fab fa-google-plus"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-dark"> <i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-dark"> <i class="fab fa-youtube"></i></a>
+            </li>
+            </ul>  
+     
+     
+     </div>
+    </div>
+ </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+crossorigin="anonymous"></script>
+
+<script src="carritodecompra.js" ></script>
+<script src="scripts\modooscuro.js" type="text/javascript"></script>
+</body>
+</html>
+

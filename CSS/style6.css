@@ -1,0 +1,59 @@
+#modo{
+    width: 10px;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.dark{
+    background: rgb(0, 0, 0);
+}
+
+.dark h1{
+    color: white;
+}
+
+.dark .descripcion{
+    color: rgb(0, 0, 0);
+}
+
+.dark #modo{
+    color: rgb(62, 192, 209);
+}
+
+.dark .card__perfil{
+    background: rgb(0, 0, 0);
+}
+
+.dark p{
+    color: rgb(141, 136, 136);
+}
+
+.dark h2{
+    color: white;
+}
+
+.dark h4{
+    color: white;
+}
+
+.dark h3{
+    color: white;
+}
+
+.dark h5 {
+    color: white;
+}
+
+.dark h6 {
+    color: white;
+}
+
+.dark .enlace{
+    background: rgb(255, 255, 255);
+}
+
+.dark .card__perfil:hover{
+    border: solid green 2px;
+}
+

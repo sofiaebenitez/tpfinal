@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Este es el titulo -->
+  <title>Turismo Travel world</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+  <link rel="stylesheet" href="CSS\styles2.css">
+  <link rel="stylesheet" href="css/style6.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+
+          <!-- Esta es la barra de navegacion -->
+          <a class="navbar-brand" href="#">Turismo Travel World</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Paquetes
+                </a>
+                <ul class="dropdown-menu">
+
+                  <!-- Este es el despliegue del menu -->
+                  <li><a class="dropdown-item" href="vuelos.html">Vuelos</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="alojamiento.html">Alojamientos</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="asistenciaalviajero.html">Asistencia al viajero</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ingresar.html">Ingresar</a>
+              </li>
+              </li>
+              </li>
+            </ul>
+            <div class="container">
+              <div class="modo" id="modo">
+                <i class="fas fa-toggle-on"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="carusel">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Este es el carrusel de imagenes -->
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img
+            src="asset\Impresionante-Playa-Tropical-1920x1080-❤-Fondo-de-Escritorio-4K-HD-Para-TV-4K-Ultra-HD-1024x576 (1).jpg"
+            class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="display-4 fw-bolder text-capitalize">Playa</h1>
+            <p>Agarra esta ola de ofertas y andate al mar</p>
+            <button class="btn btn-primary">Más información</button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="asset\paris.jpg" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="display-4 fw-bolder text-capitalize">Ciudad</h1>
+            <p>Recorre tu ciudad favorita</p>
+            <button class="btn btn-primary">Más información</button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="asset\Lago-Gurudongmar-India.png" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="display-4 fw-bolder text-capitalize">Montaña</h1>
+            <p>Camina por la naturaleza</p>
+            <button class="btn btn-primary">Más información</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+    
+  <!-- TITULO SOBRE GUIA TURISTICA-->
+  <div class="mb-5"></div>
+  <h1 class="display-5 text-center">¡Guía de turismo por Argentina!</h1>
+  <div class="mb-4"></div>
+ <section class="container">
+    <div class="card">
+        <div class="card-image image-1"></div>
+        <img src="asset\peritomoreno.jpg" alt="">
+        <h2>Perito Moreno</h2>
+        <p>El sector sur alberga el Perito Moreno, el más famoso de los 47 glaciares que hay en el parque. 
+            Una red de pasarelas y barcos se acercan a esta mole de 35 km de largo y 5 km de frente.</p>
+            <a href="https://www.elcalafate.tur.ar/en-glaciar-perito-moreno.htm">Ver más</a>
+    </div>
+    <div class="card">
+        <div class="card-image image-2"></div>
+        <img src="asset\salta.jpg" alt="">
+            <h2>Cachi</h2>
+            <p>En el corazón de los Valles Calchaquíes salteños, se encuentra Cachi. Un fantástico pueblo 
+                lleno de encanto, que renueva el espíritu y enriquece el alma de cualquier viajero. 
+                Escondido entre altas montañas, es uno de los lugares más asombrosos.</p>
+                <a href="http://www.turismosalta.gov.ar/">Ver más</a>
+    </div>
+    <div class="card">
+        <div class="card-image image-3"></div>
+        <img src="asset\mendoza.jpg" alt="">
+            <h2>Mendoza</h2>
+            <p>Mendoza es sinónimo de vino y los mendocinos le rinden tributo todos los años durante los meses de enero y febrero con 
+                fiestas departamentales y culminando el primer fin de semana de marzo con el festejo máximo, la “Fiesta Nacional de la 
+                Vendimia”</p>
+                <a href="https://mendoza.tur.ar/">Ver más</a>
+
+
+    </div>    
+
+    </div>
+
+ </section>
+ 
+<div class="mb-4"></div>  
+<!-- TITULO SOBRE GUIA TURISTICA-->
+<div class="mb-5"></div>
+<h1 class="display-5 text-center">¡Guía de turismo por el Mundo!</h1>
+<div class="mb-4"></div>
+<section class="container">
+    <div class="card">
+        <div class="card-image image-1"></div>
+        <img src="asset\nuevayork.jpg" alt="">
+        <h2>Nueva York</h2>
+        <p>Nueva York incluye 5 distritos que se ubican donde el río Hudson desemboca en el océano Atlántico. En su centro se encuentra 
+          Manhattan, un distrito que se encuentra entre los principales centros comerciales, financieros y culturales del mundo. Sus sitios icónicos 
+          incluyen rascacielos, como el Empire State Building, y el amplio Central Park. 
+            <a href="https://www.nuevayork.net/">Ver más</a>
+    </div>
+    <div class="card">
+        <div class="card-image image-2"></div>
+        <img src="asset\madrid.jpg" alt="">
+            <h2>Madrid</h2>
+            <p>Madrid sorprende con tranquilos rincones históricos llenos de encanto por los que pasear, con centenarias tabernas castizas 
+              de tradición familiar en las que los amigos se encuentran para tomar algo, con barrios de todos los estilos y con centros 
+              culturales alternativos a los circuitos más turísticos.</p>
+                <a href="https://www.esmadrid.com/">Ver más</a>
+    </div>
+    <div class="card">
+        <div class="card-image image-3"></div>
+        <img src="asset\sydney.jpg" alt="">
+            <h2>Sydney</h2>
+            <p>Sydney es la ciudad más grande de Australia y la capital de Nueva Gales del Sur. Está situada en la costa sureste y es famosa 
+              por sus playas emblemáticas, la vibrante escena cultural, sitios del patrimonio mundial, excursiones increíbles y evidentemente, 
+              por su población cosmopolita e internacional.</p>
+                <a href="https://gostudyaus.es/australia/donde-en-australia/sydney/">Ver más</a>
+                <div class="mb-4"></div>  
+
+
+    </div>    
+
+    </div>
+
+ </section>
+ 
+ <div class="mb-4"></div> 
+
+<div>
+        <!-- Footer principal -->       
+        <footer id="footer"> 
+        <div class="footer-newsletter"> 
+          <div class="container"> 
+            <div class="row"> 
+              <div class="col-lg-6"> 
+                <h4>SUBSCRIBITE A NUESTRA NEWSLETTER PARA RECIBIR PROMOCIONES</h4> 
+              </div> 
+              <div class="col-lg-6"> 
+                <form action="" method="post"> 
+                  <input type="email" name="email">
+                  <input type="submit" value="Subscribime"> 
+                </form> 
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+        </footer>
+        
+        <!-- Footer principal -->
+        <footer class="bg-light text-dark pt-5 pb-5 pb-4">
+          <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+  
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Sobre Nosotros</h5>
+                       <hr class="mb-4">
+                       <p>
+                       <a href="nosotros.html" class="text-dark">¿Quiénes Somos?</a> 
+                       </p>
+                       <p>
+                        <a href="Promocionesbancarias.html" class="text-dark">Promociones Bancarias</a> 
+                        </p>
+                </div>
+  
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                     <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                     <hr class="mb-4">
+                     <p>
+                         <a href="Ingresar.html" class="text-dark">Accede a mi cuenta</a>
+                     </p>
+                     <p>
+                      <a href="Contacto.html" class="text-dark">Contactanos</a>
+                     </p>
+                     <p>
+                      <a href="Preguntasfrecuentes.html" class="text-dark">Preguntas Frecuentes</a>
+                     </p>
+  
+                </div>
+  
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Legales</h5>
+                  <hr class="mb-4">
+                  <p>
+                      <a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm" class="text-dark">Ley 24.240</a>
+                  </p>
+                  <p>
+                   <a href="https://www.argentina.gob.ar/economia/comercio/defensadelconsumidor" class="text-dark">Autoridad Nacional de Aplicación</a>
+                  </p>
+                  
+  
+             </div>
+             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+              <hr class="mb-4">
+              <p>
+                <li class="fas fa-home me-3"></li>Av Libertador 1313, Buenos Aires
+              </p>
+              <p>
+                <li class="fas fa-envelope me-3"></li>Turismotravelworld@turismo.com.ar
+              </p>    
+              <p>
+                <li class="fas fa-phone me-3"></li>0800-123-4321
+              </p>
+              <p>
+                <li class="fas fa-print me-3"></li>+1234321
+              </p>
+         </div>
+  
+         <hr class="mb-4">
+  
+         <div class="text-center mb-2">
+              <p>
+                &copy; Turismo Travel World - Todos los derechos reservados 2023.
+                 <a href="">
+                     <strong class="text-primary"></strong>
+                 </a>
+              </p>
+         </div>
+  
+         <div class="text-center">
+            
+              <ul class="list-unstyled list-inline">
+  
+                <li class="list-inline-item">
+                     <a href="#" class="text-dark"> <i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark"> <i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark"> <i class="fab fa-google-plus"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark"> <i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark"> <i class="fab fa-youtube"></i></a>
+                </li>
+                </ul>  
+         
+         
+         </div>
+        </div>
+     </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+    <script src="scripts\modooscuro.js" type="text/javascript"></script>
+</body>
+
+</html>
